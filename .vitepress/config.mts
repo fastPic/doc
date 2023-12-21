@@ -5,6 +5,9 @@ export default defineConfig({
   title: "🚀 快图设计",
   description: "快图设计编辑器文档",
   themeConfig: {
+    search: {
+      provider: 'local'
+    },
     // logo: { src: '/public/logo.png', width: 24, height: 24 },
     // https://vitepress.dev/reference/default-theme-config
     nav: [
