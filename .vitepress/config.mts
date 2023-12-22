@@ -4,6 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "🚀 快图设计",
   description: "快图设计编辑器文档",
+  base: '/doc',
   themeConfig: {
     search: {
       provider: 'local'
