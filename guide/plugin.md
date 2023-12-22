@@ -230,7 +230,7 @@ editor.on(ruler.event.createRulerStart, () => {
 3. Components：业务组件，调用Edirot对象提供的API方法，可订阅编辑器内的事件。
 4. commonUse：组件需高频使用的功能，如当前是单选、多选、选中ID等功能，属于业务功能，单独将组件需要的功能封装在通用hook中，供components使用。
 
-<figure><img src=".gitbook/assets/Vue-Fabric-Editor.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="/public/Vue-Fabric-Editor.png" alt=""><figcaption></figcaption></figure>
 
 
 
